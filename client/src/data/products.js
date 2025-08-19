@@ -1,0 +1,435 @@
+export const products = [
+  // Fruits & Vegetables
+  {
+    id: 1,
+    name: 'Fresh Bananas',
+    price: 45,
+    originalPrice: 60,
+    image: 'https://images.unsplash.com/photo-1571771894821-ce9b6c11b08e?w=300',
+    category: 'Fruits & Vegetables',
+    discount: 25,
+    rating: 4.5,
+    deliveryTime: '10 mins',
+    description: 'Fresh organic bananas rich in potassium and natural sugars'
+  },
+  {
+    id: 2,
+    name: 'Fresh Tomatoes',
+    price: 30,
+    originalPrice: 40,
+    image: 'https://images.unsplash.com/photo-1546094096-0df4bcaaa337?w=300',
+    category: 'Fruits & Vegetables',
+    discount: 25,
+    rating: 4.3,
+    deliveryTime: '12 mins',
+    description: 'Fresh red tomatoes perfect for cooking and salads'
+  },
+  {
+    id: 3,
+    name: 'Green Apples',
+    price: 120,
+    originalPrice: 150,
+    image: 'https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?w=300',
+    category: 'Fruits & Vegetables',
+    discount: 20,
+    rating: 4.7,
+    deliveryTime: '8 mins',
+    description: 'Crisp and juicy green apples packed with vitamins'
+  },
+  {
+    id: 4,
+    name: 'Fresh Carrots',
+    price: 25,
+    originalPrice: 35,
+    image: 'https://images.unsplash.com/photo-1582515073490-39981397c445?w=300',
+    category: 'Fruits & Vegetables',
+    discount: 28,
+    rating: 4.4,
+    deliveryTime: '10 mins',
+    description: 'Farm fresh carrots rich in beta-carotene'
+  },
+  {
+    id: 5,
+    name: 'Cucumber',
+    price: 20,
+    originalPrice: 30,
+    image: 'https://images.unsplash.com/photo-1449300079323-02e209d9d3a6?w=300',
+    category: 'Fruits & Vegetables',
+    discount: 33,
+    rating: 4.2,
+    deliveryTime: '12 mins',
+    description: 'Fresh cucumbers perfect for salads and detox'
+  },
+  {
+    id: 6,
+    name: 'Red Onions',
+    price: 35,
+    originalPrice: 45,
+    image: 'https://images.unsplash.com/photo-1518977676601-b53f82aba655?w=300',
+    category: 'Fruits & Vegetables',
+    discount: 22,
+    rating: 4.1,
+    deliveryTime: '15 mins',
+    description: 'Premium quality red onions for all your cooking needs'
+  },
+  {
+    id: 7,
+    name: 'Fresh Spinach',
+    price: 15,
+    originalPrice: 25,
+    image: 'https://images.unsplash.com/photo-1576045057995-568f588f82fb?w=300',
+    category: 'Fruits & Vegetables',
+    discount: 40,
+    rating: 4.6,
+    deliveryTime: '8 mins',
+    description: 'Fresh spinach leaves rich in iron and vitamins'
+  },
+  {
+    id: 8,
+    name: 'Bell Peppers',
+    price: 60,
+    originalPrice: 80,
+    image: 'https://images.unsplash.com/photo-1525607551316-4a8e16d1f9ba?w=300',
+    category: 'Fruits & Vegetables',
+    discount: 25,
+    rating: 4.3,
+    deliveryTime: '10 mins',
+    description: 'Colorful bell peppers perfect for stir-fries and salads'
+  },
+
+  // Dairy & Bakery
+  {
+    id: 9,
+    name: 'Organic Milk',
+    price: 65,
+    originalPrice: 75,
+    image: 'https://images.unsplash.com/photo-1563636619-e9143da7973b?w=300',
+    category: 'Dairy & Bakery',
+    discount: 13,
+    rating: 4.8,
+    deliveryTime: '10 mins',
+    description: 'Fresh organic milk from grass-fed cows'
+  },
+  {
+    id: 10,
+    name: 'Brown Bread',
+    price: 35,
+    originalPrice: 40,
+    image: 'https://images.unsplash.com/photo-1509440159596-0249088772ff?w=300',
+    category: 'Dairy & Bakery',
+    discount: 12,
+    rating: 4.3,
+    deliveryTime: '8 mins',
+    description: 'Healthy brown bread made with whole wheat'
+  },
+  {
+    id: 11,
+    name: 'Greek Yogurt',
+    price: 85,
+    originalPrice: 100,
+    image: 'https://images.unsplash.com/photo-1571212515416-7c7b217c3d76?w=300',
+    category: 'Dairy & Bakery',
+    discount: 15,
+    rating: 4.7,
+    deliveryTime: '12 mins',
+    description: 'Creamy Greek yogurt packed with probiotics'
+  },
+  {
+    id: 12,
+    name: 'Cheddar Cheese',
+    price: 150,
+    originalPrice: 180,
+    image: 'https://images.unsplash.com/photo-1552767059-ce182ead6c1b?w=300',
+    category: 'Dairy & Bakery',
+    discount: 17,
+    rating: 4.5,
+    deliveryTime: '15 mins',
+    description: 'Premium aged cheddar cheese for your recipes'
+  },
+  {
+    id: 13,
+    name: 'Fresh Butter',
+    price: 120,
+    originalPrice: 140,
+    image: 'https://images.unsplash.com/photo-1589985270826-4b7bb135bc9d?w=300',
+    category: 'Dairy & Bakery',
+    discount: 14,
+    rating: 4.6,
+    deliveryTime: '10 mins',
+    description: 'Premium quality fresh butter for baking and cooking'
+  },
+  {
+    id: 14,
+    name: 'Croissants',
+    price: 80,
+    originalPrice: 100,
+    image: 'https://images.unsplash.com/photo-1549903072-7e6e0bedb7fb?w=300',
+    category: 'Dairy & Bakery',
+    discount: 20,
+    rating: 4.4,
+    deliveryTime: '8 mins',
+    description: 'Freshly baked buttery croissants'
+  },
+
+  // Snacks & Beverages
+  {
+    id: 15,
+    name: 'Potato Chips',
+    price: 45,
+    originalPrice: 55,
+    image: 'https://images.unsplash.com/photo-1566478989037-eec170784d0b?w=300',
+    category: 'Snacks & Beverages',
+    discount: 18,
+    rating: 4.2,
+    deliveryTime: '15 mins',
+    description: 'Crispy and crunchy potato chips'
+  },
+  {
+    id: 16,
+    name: 'Coca Cola',
+    price: 40,
+    originalPrice: 45,
+    image: 'https://images.unsplash.com/photo-1561758033-d89a9ad46330?w=300',
+    category: 'Snacks & Beverages',
+    discount: 11,
+    rating: 4.5,
+    deliveryTime: '12 mins',
+    description: 'Refreshing Coca Cola soft drink'
+  },
+  {
+    id: 17,
+    name: 'Mixed Nuts',
+    price: 180,
+    originalPrice: 220,
+    image: 'https://images.unsplash.com/photo-1599599810694-57a2ca8276a8?w=300',
+    category: 'Snacks & Beverages',
+    discount: 18,
+    rating: 4.6,
+    deliveryTime: '10 mins',
+    description: 'Premium mix of cashews, almonds, and pistachios'
+  },
+  {
+    id: 18,
+    name: 'Orange Juice',
+    price: 65,
+    originalPrice: 80,
+    image: 'https://images.unsplash.com/photo-1621506289937-a8e4df240d0b?w=300',
+    category: 'Snacks & Beverages',
+    discount: 19,
+    rating: 4.4,
+    deliveryTime: '8 mins',
+    description: 'Fresh squeezed orange juice rich in Vitamin C'
+  },
+  {
+    id: 19,
+    name: 'Chocolate Cookies',
+    price: 95,
+    originalPrice: 120,
+    image: 'https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=300',
+    category: 'Snacks & Beverages',
+    discount: 21,
+    rating: 4.7,
+    deliveryTime: '10 mins',
+    description: 'Delicious chocolate chip cookies'
+  },
+  {
+    id: 20,
+    name: 'Energy Drink',
+    price: 55,
+    originalPrice: 65,
+    image: 'https://images.unsplash.com/photo-1622543925917-763c34d1a86e?w=300',
+    category: 'Snacks & Beverages',
+    discount: 15,
+    rating: 4.1,
+    deliveryTime: '12 mins',
+    description: 'Energizing drink for instant boost'
+  },
+
+  // Personal Care
+  {
+    id: 21,
+    name: 'Shampoo',
+    price: 250,
+    originalPrice: 300,
+    image: 'https://images.unsplash.com/photo-1556228720-195a672e8a03?w=300',
+    category: 'Personal Care',
+    discount: 17,
+    rating: 4.3,
+    deliveryTime: '20 mins',
+    description: 'Nourishing shampoo for healthy hair'
+  },
+  {
+    id: 22,
+    name: 'Toothpaste',
+    price: 85,
+    originalPrice: 100,
+    image: 'https://images.unsplash.com/photo-1607613009820-a29f7bb81c04?w=300',
+    category: 'Personal Care',
+    discount: 15,
+    rating: 4.5,
+    deliveryTime: '15 mins',
+    description: 'Fresh breath toothpaste with fluoride protection'
+  },
+  {
+    id: 23,
+    name: 'Face Wash',
+    price: 180,
+    originalPrice: 220,
+    image: 'https://images.unsplash.com/photo-1556228578-8c89e6adf883?w=300',
+    category: 'Personal Care',
+    discount: 18,
+    rating: 4.4,
+    deliveryTime: '18 mins',
+    description: 'Gentle face wash for all skin types'
+  },
+  {
+    id: 24,
+    name: 'Body Soap',
+    price: 45,
+    originalPrice: 60,
+    image: 'https://images.unsplash.com/photo-1585386959984-a4155224a1ad?w=300',
+    category: 'Personal Care',
+    discount: 25,
+    rating: 4.2,
+    deliveryTime: '15 mins',
+    description: 'Moisturizing body soap with natural ingredients'
+  },
+  {
+    id: 25,
+    name: 'Hand Cream',
+    price: 120,
+    originalPrice: 150,
+    image: 'https://images.unsplash.com/photo-1571781926291-c477ebfd024b?w=300',
+    category: 'Personal Care',
+    discount: 20,
+    rating: 4.6,
+    deliveryTime: '12 mins',
+    description: 'Moisturizing hand cream for soft hands'
+  },
+
+  // Home Care
+  {
+    id: 26,
+    name: 'Dish Soap',
+    price: 95,
+    originalPrice: 120,
+    image: 'https://images.unsplash.com/photo-1583947215259-38e31be8751f?w=300',
+    category: 'Home Care',
+    discount: 21,
+    rating: 4.3,
+    deliveryTime: '15 mins',
+    description: 'Powerful dish soap that cuts through grease'
+  },
+  {
+    id: 27,
+    name: 'Toilet Paper',
+    price: 180,
+    originalPrice: 220,
+    image: 'https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?w=300',
+    category: 'Home Care',
+    discount: 18,
+    rating: 4.1,
+    deliveryTime: '20 mins',
+    description: 'Soft and absorbent toilet paper'
+  },
+  {
+    id: 28,
+    name: 'All-Purpose Cleaner',
+    price: 150,
+    originalPrice: 180,
+    image: 'https://images.unsplash.com/photo-1585421514738-01798e348777?w=300',
+    category: 'Home Care',
+    discount: 17,
+    rating: 4.4,
+    deliveryTime: '18 mins',
+    description: 'Multi-surface cleaner for all household cleaning'
+  },
+  {
+    id: 29,
+    name: 'Laundry Detergent',
+    price: 280,
+    originalPrice: 350,
+    image: 'https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=300',
+    category: 'Home Care',
+    discount: 20,
+    rating: 4.5,
+    deliveryTime: '25 mins',
+    description: 'Powerful laundry detergent for clean clothes'
+  },
+  {
+    id: 30,
+    name: 'Glass Cleaner',
+    price: 75,
+    originalPrice: 95,
+    image: 'https://images.unsplash.com/photo-1563453392212-326f5e854473?w=300',
+    category: 'Home Care',
+    discount: 21,
+    rating: 4.2,
+    deliveryTime: '15 mins',
+    description: 'Streak-free glass and window cleaner'
+  },
+
+  // Baby Care
+  {
+    id: 31,
+    name: 'Baby Diapers',
+    price: 450,
+    originalPrice: 550,
+    image: 'https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=300',
+    category: 'Baby Care',
+    discount: 18,
+    rating: 4.7,
+    deliveryTime: '15 mins',
+    description: 'Ultra-soft baby diapers for maximum comfort'
+  },
+  {
+    id: 32,
+    name: 'Baby Wipes',
+    price: 120,
+    originalPrice: 150,
+    image: 'https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?w=300',
+    category: 'Baby Care',
+    discount: 20,
+    rating: 4.6,
+    deliveryTime: '12 mins',
+    description: 'Gentle baby wipes for sensitive skin'
+  },
+  {
+    id: 33,
+    name: 'Baby Shampoo',
+    price: 180,
+    originalPrice: 220,
+    image: 'https://images.unsplash.com/photo-1544441892-794166f1e3be?w=300',
+    category: 'Baby Care',
+    discount: 18,
+    rating: 4.5,
+    deliveryTime: '18 mins',
+    description: 'Mild and gentle baby shampoo'
+  },
+  {
+    id: 34,
+    name: 'Baby Food',
+    price: 95,
+    originalPrice: 120,
+    image: 'https://images.unsplash.com/photo-1576045057995-568f588f82fb?w=300',
+    category: 'Baby Care',
+    discount: 21,
+    rating: 4.8,
+    deliveryTime: '10 mins',
+    description: 'Nutritious organic baby food'
+  },
+  {
+    id: 35,
+    name: 'Baby Lotion',
+    price: 150,
+    originalPrice: 180,
+    image: 'https://images.unsplash.com/photo-1594736797933-d0501ba2fe65?w=300',
+    category: 'Baby Care',
+    discount: 17,
+    rating: 4.4,
+    deliveryTime: '15 mins',
+    description: 'Gentle moisturizing lotion for baby\'s delicate skin'
+  }
+]
+
+export default products

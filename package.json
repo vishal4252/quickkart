@@ -1,0 +1,21 @@
+{
+  "name": "quickkart",
+  "version": "1.0.0",
+  "description": "A modern e-commerce platform similar to Blinkit",
+  "main": "server/index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm run dev",
+    "build": "cd client && npm run build",
+    "start": "cd server && npm start",
+    "install-deps": "npm install && cd client && npm install && cd ../server && npm install",
+    "tunnel": "npx ngrok http 3002"
+  },
+  "keywords": ["ecommerce", "grocery", "delivery", "react", "nodejs"],
+  "author": "QuickKart Team",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
